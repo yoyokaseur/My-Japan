@@ -1,5 +1,9 @@
 # my_japan
 
+## -- color site
+f26c9e
+
+
 ## Project setup
 ```
 npm install
@@ -22,3 +26,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Install font awesom
+npm install @fontawesome/fontawesome-free
