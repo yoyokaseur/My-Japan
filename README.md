@@ -31,4 +31,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 npm install @fontawesome/fontawesome-free
 
 ### Compile back-end and front-end for full-stack app
+```
 npm run all
+```
