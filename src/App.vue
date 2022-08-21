@@ -1,21 +1,20 @@
 <template>
-  <v-app>
-    <v-main>
-      <router-view />
-    </v-main>
-  </v-app>
+  <router-view />
+  <div id="nav">
+    <navigation mark="My/Japan" class="nav_app"/>
+  </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "App",
-
-  data() {
-    return {
-      //
-    };
-  },
-});
+<script setup>
+import navigation from '@/components/navigation.vue';
 </script>
+
+
+<style>
+
+body {
+  background: #201d1d;
+  margin: 0%;
+}
+
+</style>

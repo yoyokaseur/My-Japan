@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "yohan"]
+	url = https://github.com/yoyokaseur/My-Japan.git
+	fetch = +refs/heads/*:refs/remotes/yohan/*
+[remote "origin"]
+	url = https://github.com/yoyokaseur/My-Japan.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

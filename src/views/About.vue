@@ -1,5 +1,6 @@
 <template>
   <div class="about" @click="msg++">
+  <button class="DEFAULT" @click="msg++">Raise button</button>
     <h1 v-if="msg % 2 == 0">Click for test setup counter {{ msg }}</h1>
     <h1 v-else>Click for test setup counter {{ msg }} is not pair</h1>
   </div>
@@ -11,9 +12,11 @@ import { ref, onBeforeMount } from "vue";
 const msg = ref(20);
 
 console.log(msg.value);
+
 onBeforeMount(() => {
   msg.value++;
 });
+
 console.log(msg.value);
 </script>
 

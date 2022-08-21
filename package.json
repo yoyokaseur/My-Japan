@@ -6,96 +6,42 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
-    "all": "npm-run-all -p back serve",
-    "back": "nodemon backend/index.js"
+    "back": "nodemon backend/index.js",
+    "all": "npm-run-all -p back serve"
   },
   "dependencies": {
-    "@mdi/font": "5.9.55",
-    "autoprefixer": "^6.5.4",
-    "body-parser": "^1.19.1",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
     "core-js": "^3.8.3",
     "cors": "^2.8.5",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "mongoose": "^6.0.12",
-    "roboto-fontface": "*",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "register-service-worker": "^1.7.2",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.3",
-    "vuetify": "^3.0.0-beta.0",
-    "vuex": "^4.0.0",
-    "webfontloader": "^1.0.0"
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
-    "@types/webfontloader": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-pwa": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-plugin-unit-jest": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "@vue/eslint-config-typescript": "^9.1.0",
     "@vue/test-utils": "^2.0.0-0",
     "@vue/vue3-jest": "^27.0.0-alpha.1",
-    "babel-eslint": "^10.1.0",
     "babel-jest": "^27.0.6",
-    "eslint": "^7.32.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-vue": "^8.0.3",
     "jest": "^27.0.5",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.2.1",
-    "sass": "^1.42.1",
-    "sass-loader": "^12.1.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
     "ts-jest": "^27.0.4",
-    "typescript": "~4.5.5",
-    "vue-cli-plugin-vuetify": "~2.5.4",
-    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended",
-      "@vue/typescript/recommended"
-    ],
-    "parserOptions": {
-      "ecmaVersion": 2020
-    },
-    "rules": {},
-    "overrides": [
-      {
-        "files": [
-          "**/__tests__/*.{j,t}s?(x)",
-          "**/tests/unit/**/*.spec.{j,t}s?(x)"
-        ],
-        "env": {
-          "jest": true
-        }
-      }
-    ]
-  },
-  "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "IE 10",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
-  ],
-  "jest": {
-    "preset": "@vue/cli-plugin-unit-jest/presets/typescript-and-babel"
-  },
-  "_id": "my_japan@0.1.0",
-  "readme": "ERROR: No README data found!"
+    "typescript": "~4.5.5"
+  }
 }

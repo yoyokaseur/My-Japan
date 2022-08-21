@@ -1,9 +1,5 @@
 # my_japan
 
-## -- color site
-f26c9e
-
-
 ## Project setup
 ```
 npm install
@@ -19,17 +15,10 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Run your unit tests
 ```
-npm run lint
-```
-### Compile back-end and front-end for full-stack app
-```
-npm run all
+npm run test:unit
 ```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### Install font awesom
-npm install @fontawesome/fontawesome-free

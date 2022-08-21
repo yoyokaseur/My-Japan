@@ -1,12 +1,15 @@
-import { shallowMount } from "@vue/test-utils";
-import HelloWorld from "@/components/HelloWorld.vue";
+import { shallowMount } from '@vue/test-utils'
+import card from '@/components/card.vue'
 
-describe("HelloWorld.vue", () => {
-  it("renders props.msg when passed", () => {
-    const msg = "new message";
-    const wrapper = shallowMount(HelloWorld, {
-      props: { msg },
-    });
-    expect(wrapper.text()).toMatch(msg);
-  });
-});
+describe('card.vue', () => {
+  it('renders props.msg when passed', () => {
+    const msg = 'new message'
+    const wrapper = shallowMount(card, {
+      props: { msg }
+    })
+    expect(() => {
+      console.log(wrapper.text())
+      return wrapper.text()
+    }).toMatch(msg)
+  })
+})
