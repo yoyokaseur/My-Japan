@@ -22,9 +22,8 @@ let routes = [
     path: "/buy_product/:id",
     name: "buy_product",
     component: () => import("../views/buy_product.vue"),
-  }
+  },
 ];
-
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),

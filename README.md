@@ -23,14 +23,13 @@ npm run build
 ```
 npm run lint
 ```
+### Compile back-end and front-end for full-stack app
+```
+npm run all
+```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Install font awesom
 npm install @fontawesome/fontawesome-free
-
-### Compile back-end and front-end for full-stack app
-```
-npm run all
-```
